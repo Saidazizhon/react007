@@ -1,13 +1,13 @@
 import React from "react";
 import Hero from "../../components/hero/Hero";
 import Kategorey from "../../components/kategorey/Kategorey";
-import Json from "../../components/json/Json";
+import Product from "../../components/product/Product";
 const Home = () => {
   return (
     <div>
       <Hero />
       <Kategorey />
-      <Json />
+      <Product />
     </div>
   );
 };

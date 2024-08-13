@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import "./json.css";
+import "./product.css";
 import { LiaCartPlusSolid } from "react-icons/lia";
 import axios from "axios";
 import { data } from "autoprefixer";
 const API_URL = "https://dummyjson.com";
-const Json = () => {
+const Product = () => {
   const [products, setProducts] = useState(null);
   const [loading, setLoading] = useState(false);
   const [semore, setSeemore] = useState(1);
@@ -142,4 +142,4 @@ const Json = () => {
   );
 };
 
-export default Json;
+export default Product;
